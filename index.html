@@ -1,0 +1,996 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos - Pinturería Helcias</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-content">
+            <div class="logo">
+                <div class="logo-placeholder">
+                    <img src="logo.jpg" alt="Logo Pinturería Helcias"
+                        style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;">
+                </div>
+                <h1>Pinturería Helcias</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="#hero" class="active">Productos</a></li>
+                    <li><a href="#featured-categories">Servicios</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="home-hero">
+        <div class="container home-hero-content">
+            <h2>Todo para pintar y renovar tu hogar</h2>
+            <p>Encuentra la mejor calidad en pinturas, herramientas y accesorios con los precios más competitivos del
+                mercado.</p>
+            <div class="hero-buttons">
+                <a href="#contacto" class="btn btn-primary">Contáctanos</a>
+                <a href="#hero" class="btn btn-secondary">Ver Productos</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categorías Destacadas -->
+    <section id="featured-categories" class="featured-categories">
+        <div class="container">
+            <h2 class="section-title">Nuestros Servicios</h2>
+            <div class="categories-grid">
+                <div class="category-card">
+                    <div class="service-icon">
+                    <i class="fas fa-truck"></i>
+                    </div>
+                    <div class="category-info">
+                        <h3 class="category-title">Envío a Domicilio</h3>
+                        <p class="category-description">Entregamos tus prodcutos directamente en tu hogar o obra</p>
+
+                    </div>
+                </div>
+
+                <div class="category-card">
+                    <div class="service-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <div class="category-info">
+                        <h3 class="category-title">Asesoramiento de Color</h3>
+                        <p class="category-description">Te ayudamos a elegir los colores perfectos para tu espacio</p>
+
+                    </div>
+                </div>
+
+                <div class="category-card">
+                    <div class="service-icon">
+                        <i class="fas fa-calculator"></i>
+                    </div>
+                    <div class="category-info">
+                        <h3 class="category-title">Calculo de Materiales</h3>
+                        <p class="category-description">Te ayudamos a calcular la cantidad exacta de pintura que
+                            necesitas</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hero Section -->
+    <section id = "hero" class="hero">
+        <div class="container">
+            <h2>Nuestros Productos</h2>
+            <p>Descubre nuestra amplia gama de productos de interior y exterior</p>
+        </div>
+    </section>
+
+    <!-- Product Navigation Tabs -->
+    <div class="container">
+        <div class="product-tabs">
+            <button class="tab-button interior active" data-target="interior">Productos de Interior (18)</button>
+            <button class="tab-button exterior" data-target="exterior">Productos de Exterior (27)</button>
+        </div>
+    </div>
+
+    <!-- Interior Products Section -->
+    <section id="interior-products" class="products-section active">
+        <div class="container">
+            <h2 class="section-title">Productos de Interior</h2>
+            <div class="products-grid">
+                <!-- Productos de Interior (20) -->
+                <div class="product-card">
+                    <div class="image-container">
+                    <img class="product-image" src="imagenes proyecto/Pinturas interiror/Albacry-Rinde-Mas.webp"
+                        alt="Pintura Interior Blanca" class="product-image">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Albacryl Rinde Más</h3>
+                        <p class="product-description">
+                            Alto rendimiento
+                            <br>Alto cubritivo
+                            <br>Antihongos
+                        </p>
+                        <p class="product-price"></p>
+                        <button class="product-contact" onclick="window.location.href='#contacto'">Consultar</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="image-container">
+                    <img class="product-image" src="imagenes proyecto/Pinturas interiror/albacryl.webp"
+                        alt="Pintura Interior Beige" class="product-image">
+                    </div>
+
+                    <div class="product-info">
+                        <h3 class="product-title">Albacryl</h3>
+                        <p class="product-description">
+                            Alto cubritivo
+                            <br>Antihongos
+                            <br>Lavable
+                        </p>
+                        <p class="product-price"></p>
+                        <button class="product-contact" onclick="window.location.href='#contacto'">Consultar</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="image-container">
+                    <img class="product-image" src="imagenes proyecto/Pinturas interiror/albalatex mate.webp"
+                        alt="Pintura Interior Gris" class="product-image">
+                    </div>
+
+
+                    <div class="product-info">
+                        <h3 class="product-title">Albalatex Mate</h3>
+                        <p class="product-description">
+                            Facil aplicacion
+                            <br>Excelente Terminación
+                            <br>Antihongos
+                        </p>
+                        <p class="product-price"></p>
+                        <button class="product-contact" onclick="window.location.href='#contacto'">Consultar</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="image-container">
+                    <img class="product-image" src="imagenes proyecto/Pinturas interiror/albamate.webp"
+                        alt="Pintura Interior Verde" class="product-image">
+                    </div>
+
+
+                    <div class="product-info">
+                        <h3 class="product-title">Albamate</h3>
+                        <p class="product-description">
+                            Excelente Terminacion
+                            <br>Alto cubritivo
+                            <br>Maxima Duracion
+                        </p>
+                        <p class="product-price"></p>
+                        <button class="product-contact" onclick="window.location.href='#contacto'">Consultar</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="image-container">
+                    <img class="product-image" src="imagenes proyecto/Pinturas interiror/albaplast.webp"
+                        alt="Pintura Interior Azul" class="product-image">
+                    </div>
+
+
+                    <div class="product-info">
+                        <h3 class="product-title">Albaplast</h3>
+                        <p class="product-description">
+                            Facil aplicacion
+                            <br>Cubre imperfecciones
+                            <br>Rapido secado
+                        </p>
+                        <p class="product-price"></p>
+                        <button class="product-contact" onclick="window.location.href='#contacto'">Consultar</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="image-container">
+                    <img class="product-image" src="imagenes proyecto/Pinturas interiror/baños y cocina.webp"
+                        alt="Pintura Interior Terracota" class="product-image">
+                    </div>
+
+
+                    <div class="product-info">
+                        <h3 class="product-title">Alba Baños y Cocinas</h3>
+                        <p class="product-description">
+                            Facil aplicacion
+                            <br>Excelente Terminación
+                            <br>Antihongos
+                        </p>
+                        <p class="product-price"></p>
+                        <button class="product-contact" onclick="window.location.href='#contacto'">Consultar</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="image-container">
+                    <img class="product-image" src="imagenes proyecto/Pinturas interiror/cielos rasos.webp"
+                        alt="Rodillo Profesional" class="product-image">
+                    </div>
+
+
+                    <div class="product-info">
+                        <h3 class="product-title">Alba Cielos Rasos - Antihongo permanente</h3>
+                        <p class="product-description">
+                            Facil aplicacion
+                            <br>Antihongos
+                            <br>Alto cubritivo
+                        </p>
+                        <p class="product-price"></p>
+                        <button class="product-contact" onclick="window.location.href='#contacto'">Consultar</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="image-container">
+                    <img class="product-image" src="imagenes proyecto/Pinturas interiror/cristalba.webp"
+                        alt="Brochas Premium" class="product-image">
+                    </div>
+
+
+                    <div class="product-info">
+                        <h3 class="product-title">Cristalba al Agua</h3>
+                        <p class="product-description">
+                            Facil aplicacion
+                            <br>Excelente Terminación
+                            <br>Maxima duracion
+                        </p>
+                        <p class="product-price"></p>
+                        <button class="product-contact" onclick="window.location.href='#contacto'">Consultar</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="image-container">
+                    <img class="product-image" src="imagenes proyecto/Pinturas interiror/cemento alisado.webp"
+                        alt="Cinta de Enmascarar" class="product-image">
+                    </div>
+
+
+                    <div class="product-info">
+                        <h3 class="product-title">Alba Efectos Especiales Design Cemento Alisado</h3>
+                        <p class="product-description">
+                            Excelente Terminación
+                            <br>Bajo olor
+                            <br>Rapido secado
+                        </p>
+                        <p class="product-price"></p>
+                        <button class="product-contact" onclick="window.location.href='#contacto'">Consultar</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="image-container">
+                    <img class="product-image" src="imagenes proyecto/Pinturas interiror/marmol.webp"
+                        alt="Lija para Paredes" class="product-image">
+                    </div>
+                    
+
+                    <div class="product-info">
+                        <h3 class="product-title">Alba Efectos Especiales Design Marmol</h3>
+                        <p class="product-description">
+                            Excelente Terminación
+                            <br>Bajo olor
+                            <br>Rapido secado
+                        </p>
+                        <p class="product-price"></p>
+                        <button class="product-contact" onclick="window.location.href='#contacto'">Consultar</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="image-container">
+                    <img class="product-image" src="imagenes proyecto/Pinturas interiror/design satinado.webp"
+                        alt="Imprimación Interior" class="product-image">
+                    </div>
+
+
+                    <div class="product-info">
+                        <h3 class="product-title">Albalatex Design Satinado</h3>
+                        <p class="product-description">
+                            Excelente Terminación
+                            <br>Alto cubritivo
+                            <br>Alta duracion del color
+                        </p>
+                        <p class="product-price"></p>
+                        <button class="product-contact" onclick="window.location.href='#contacto'">Consultar</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="image-container">
+                    <img class="product-image" src="imagenes proyecto/Pinturas interiror/design velvet.webp"
+                        alt="Pintura Lavable" class="product-image">
+                    </div>
+
+
+                    <div class="product-info">
+                        <h3 class="product-title">Alba Efectos Especiales Design Velvet/ Nuage</h3>
+                        <p class="product-description">
+                            Excelente Terminación
+                            <br>Bajo olor
+                            <br>Rapido secado
+                        </p>
+                        <p class="product-price"></p>
+                        <button class="product-contact" onclick="window.location.href='#contacto'">Consultar</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="image-container">
+                    <img class="product-image" src="imagenes proyecto/Pinturas interiror/esmalte brillante.webp"
+                        alt="Rodillo Extensible" class="product-image">
+                    </div>
+
+
+                    <div class="product-info">
+                        <h3 class="product-title">Alba Esmalte Brillante</h3>
+                        <p class="product-description">
+                            Facil aplicacion
+                            <br>Alto cubritivo
+                            </p>
+                        <p class="product-price"></p>
+                        <button class="product-contact" onclick="window.location.href='#contacto'">Consultar</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="image-container">
+                    <img class="product-image" src="imagenes proyecto/Pinturas exterior/fondo blanco para maderas-alta Performance.webp"
+                        alt="Bandeja para Pintura" class="product-image">
+                    </div>
+
+
+                    <div class="product-info">
+                        <h3 class="product-title">Alba Fondo Blanco para Maderas - Alta Performance</h3>
+                        <p class="product-description">
+                            Facil aplicacion
+                            <br>Alto cubritivo
+                            <br>Refierza adherencia y durabilidad de la pelicula final
+                        </p>
+                        <p class="product-price"></p>
+                        <button class="product-contact" onclick="window.location.href='#contacto'">Consultar</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="image-container">
+                    <img class="product-image" src="imagenes proyecto/Pinturas exterior/alba pisos.webp"
+                        alt="Pintura Antihongos" class="product-image">
+                    </div>
+
+
+                    <div class="product-info">
+                        <h3 class="product-title">Alba Pisos</h3>
+                        <p class="product-description">
+                            Excelente Resistencia
+                            <br>Gran rendimiento
+                            <br>Alto cubritivo
+                        </p>
+                        <p class="product-price"></p>
+                        <button class="product-contact" onclick="window.location.href='#contacto'">Consultar</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="image-container">
+                    <img class="product-image" src="imagenes proyecto/Pinturas interiror/pizarrones.webp"
+                        alt="Protector de Muebles" class="product-image">
+                    </div>
+
+
+                    <div class="product-info">
+                        <h3 class="product-title">Alba Pizarrones</h3>
+                        <p class="product-description">
+                            Facil de Limpiar
+                            <br>Alto cubritivo
+                            <br>Mate Resitente
+                        </p>
+                        <p class="product-price"></p>
+                        <button class="product-contact" onclick="window.location.href='#contacto'">Consultar</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="image-container">
+                    <img class="product-image" src="imagenes proyecto/Pinturas interiror/sellador fijador al agua alta performance.webp"
+                        alt="Pintura efecto Pizarra" class="product-image">
+                    </div>
+
+
+                    <div class="product-info">
+                        <h3 class="product-title">Alba Sellador Fijador al Agua - Alta Performance</h3>
+                        <p class="product-description">
+                            Facil aplicacion
+                            <br>Antihongos
+                            <br>Refuerza adherencia y durabilidad de la pelicula final
+                        </p>
+                        <p class="product-price"></p>
+                        <button class="product-contact" onclick="window.location.href='#contacto'">Consultar</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="image-container">
+                    <img class="product-image" src="imagenes proyecto/Pinturas interiror/color test.avif"
+                        alt="Pintura Magnética" class="product-image">
+                    </div>
+
+
+                    <div class="product-info">
+                        <h3 class="product-title">Alba Color Test</h3>
+                        <p class="product-description">
+                            Bajo olor
+                        </p>
+                        <p class="product-price"></p>
+                        <button class="product-contact" onclick="window.location.href='#contacto'">Consultar</button>
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Exterior Products Section -->
+    <section id="exterior-products" class="products-section">
+        <div class="container">
+            <h2 class="section-title">Productos de Exterior</h2>
+            <div class="products-grid">
+                <!-- Productos de Exterior (28) -->
+                <div class="product-card">
+                    <div class="image-container">
+                    <img class="product-image" src="imagenes proyecto/Pinturas exterior/alba pisos.webp"
+                        alt="Pintura Exterior Blanca" class="product-image">
+                    </div>
+
+
+                    <div class="product-info">
+                        <h3 class="product-title">Alba Pisos</h3>
+                        <p class="product-description">
+                            Excelente Resistencia
+                            <br>Gran rendimiento
+                            <br>Alto cubritivo
+                            </p>
+                        <p class="product-price"></p>
+                        <button class="product-contact" onclick="window.location.href='#contacto'">Consultar</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="image-container">
+                    <img class="product-image" src="imagenes proyecto/Pinturas exterior/albalux 2x1.webp"
+                        alt="Pintura Exterior Terracota" class="product-image">
+                    </div>
+
+
+                    <div class="product-info">
+                        <h3 class="product-title">Albalux 2x1</h3>
+                        <p class="product-description">
+                            Antioxido
+                            <br>Facil aplicacion
+                            <br>Excelente Terminación
+                        </p>
+                        <p class="product-price"></p>
+                        <button class="product-contact" onclick="window.location.href='#contacto'">Consultar</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="image-container">
+                    <img class="product-image" src="imagenes proyecto/Pinturas exterior/albalux balance.webp"
+                        alt="Pintura Exterior Gris" class="product-image">
+                    </div>
+
+
+                    <div class="product-info">
+                        <h3 class="product-title">Albalux Balance</h3>
+                        <p class="product-description">
+                            Facil aplicacion
+                            <br>Excelente Terminación
+                            <br>Alto cubritivo
+                        </p>
+                        <p class="product-price"></p>
+                        <button class="product-contact" onclick="window.location.href='#contacto'">Consultar</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="image-container">
+                    <img class="product-image" src="imagenes proyecto/Pinturas exterior/albalux.webp"
+                        alt="Pintura Exterior Verde" class="product-image">
+                    </div>
+
+
+                    <div class="product-info">
+                        <h3 class="product-title">Albalux</h3>
+                        <p class="product-description">
+                            Facil aplicacion
+                            <br>Excelente Terminación
+                            <br>Alto cubritivo
+                        </p>
+                        <p class="product-price"></p>
+                        <button class="product-contact" onclick="window.location.href='#contacto'">Consultar</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="image-container">
+                    <img class="product-image" src="imagenes proyecto/Pinturas exterior/albasol.webp"
+                        alt="Pintura Exterior Azul" class="product-image">
+                    </div>
+
+
+                    <div class="product-info">
+                        <h3 class="product-title">Albasol</h3>
+                        <p class="product-description">
+                        Antioxido
+                        <br>Facil aplicacion
+                        <br>Alto cubritivo
+                    </p>
+                        <p class="product-price"></p>
+                        <button class="product-contact" onclick="window.location.href='#contacto'">Consultar</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="image-container">
+                    <img class="product-image" src="imagenes proyecto/Pinturas exterior/albatros doble vida.webp"
+                        alt="Pintura Exterior Beige" class="product-image">
+                    </div>
+
+
+                    <div class="product-info">
+                        <h3 class="product-title">Albatros Doble Vida</h3>
+                        <p class="product-description">
+                            Excelente Terminacion
+                            <br>Maxima Duracion
+                            <br>Proteccion por mas tiempo
+                        </p>
+                        <p class="product-price"></p>
+                        <button class="product-contact" onclick="window.location.href='#contacto'">Consultar</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="image-container">
+                    <img class="product-image" src="imagenes proyecto/Pinturas exterior/albatros.webp"
+                        alt="Pintura Exterior Roja" class="product-image">
+                    </div>
+
+
+                    <div class="product-info">
+                        <h3 class="product-title">Albatros</h3>
+                        <p class="product-description">
+                            Excelente Terminación
+                        <br>Maxima Duracion
+                        <br>Resistencia a los rayos UV
+                        </p>
+                        <p class="product-price"></p>
+                        <button class="product-contact" onclick="window.location.href='#contacto'">Consultar</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="image-container">
+                    <img class="product-image" src="imagenes proyecto/Pinturas exterior/alta temperatura.webp"
+                        alt="Pintura Exterior Amarilla" class="product-image">
+                    </div>
+
+
+                    <div class="product-info">
+                        <h3 class="product-title">Alta Temperatura</h3>
+                        <p class="product-description">
+                            Facil aplicacion
+                            <br>Excelente Terminación
+                            <br>Alto cubritivo
+                        </p>
+                        <p class="product-price"></p>
+                        <button class="product-contact" onclick="window.location.href='#contacto'">Consultar</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="image-container">
+                    <img class="product-image" src="imagenes proyecto/Pinturas exterior/antioxido.webp"
+                        alt="Rodillo Exterior" class="product-image">
+                    </div>
+
+
+                    <div class="product-info">
+                        <h3 class="product-title">Antioxido</h3>
+                        <p class="product-description">
+                            Antioxido
+                            <br>Facil aplicacion
+                            <br>Alta Performance
+                        </p>
+                        <p class="product-price"></p>
+                        <button class="product-contact" onclick="window.location.href='#contacto'">Consultar</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="image-container">
+                    <img class="product-image" src="imagenes proyecto/Pinturas exterior/convertidor de oxido.webp"
+                        alt="Imprimación Exterior" class="product-image">
+                    </div>
+
+
+                    <div class="product-info">
+                        <h3 class="product-title">Fondo Convertidor de Oxido - Alta Performance</h3>
+                        <p class="product-description">
+                            Antioxido
+                            <br>Facil aplicacion
+                            <br>Alto cubritivo
+                        </p>
+                        <p class="product-price"></p>
+                        <button class="product-contact" onclick="window.location.href='#contacto'">Consultar</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="image-container">
+                    <img class="product-image" src="imagenes proyecto/Pinturas exterior/duralba acrilico.webp"
+                        alt="Sellador para Fachadas" class="product-image">
+                    </div>
+
+
+                    <div class="product-info">
+                        <h3 class="product-title">Duralba Super Acrilico</h3>
+                        <p class="product-description">
+                            Antihongos
+                            <br>Maxima Duracion
+                            <br>Proteccion por mas tiempo
+                        </p>
+                        <p class="product-price"></p>
+                        <button class="product-contact" onclick="window.location.href='#contacto'">Consultar</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="image-container">
+                    <img class="product-image" src="imagenes proyecto/Pinturas exterior/duralba impermeabilizante.webp"
+                        alt="Pintura Antigoteo" class="product-image">
+                    </div>
+
+
+                    <div class="product-info">
+                        <h3 class="product-title">Duralba Impermeabilizante Frentes y Muros Antisalitre</h3>
+                        <p class="product-description">
+                            Pelicula flexible
+                            <br>Maxima duracion
+                            <br>Proteccion por mas tiempo
+                        </p>
+                        <p class="product-price"></p>
+                        <button class="product-contact" onclick="window.location.href='#contacto'">Consultar</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="image-container">
+                    <img class="product-image" src="imagenes proyecto/Pinturas exterior/duralba ladrillos natural.webp"
+                        alt="Pintura Antigoteo" class="product-image">
+                    </div>
+
+
+                    <div class="product-info">
+                        <h3 class="product-title">Duralba Ladrillos Natural</h3>
+                        <p class="product-description">
+                            Antihongos
+                            <br>Maxima duracion
+                            <br>Proteccion por mas tiempo
+                        </p>
+                        <p class="product-price"></p>
+                        <button class="product-contact" onclick="window.location.href='#contacto'">Consultar</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="image-container">
+                    <img class="product-image" src="imagenes proyecto/Pinturas exterior/ladrillo satinado.webp"
+                        alt="Pintura Antigoteo" class="product-image">
+                    </div>
+
+
+                    <div class="product-info">
+                        <h3 class="product-title">Duralba Ladrillos Satinado</h3>
+                        <p class="product-description">
+                            Maxima duracion
+                            <br>Proteccion por mas tiempo
+                            <br>Impermeabilidad reforzada
+                        </p>
+                        <p class="product-price"></p>
+                        <button class="product-contact" onclick="window.location.href='#contacto'">Consultar</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="image-container">
+                    <img class="product-image" src="imagenes proyecto/Pinturas exterior/techos fibrado.webp"
+                        alt="Pintura Antigoteo" class="product-image">
+                    </div>
+
+                    <div class="product-info">
+                        <h3 class="product-title">Duralba Techo Fibrado</h3>
+                        <p class="product-description">
+                            Pelicula flexible
+                            <br>Maxima duracion
+                            <br>Proteccion por mas tiempo
+                        </p>
+                        <p class="product-price"></p>
+                        <button class="product-contact" onclick="window.location.href='#contacto'">Consultar</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="image-container">
+                    <img class="product-image" src="imagenes proyecto/Pinturas exterior/duralba techos total.webp"
+                        alt="Pintura Antigoteo" class="product-image">
+                    </div>
+
+                    <div class="product-info">
+                        <h3 class="product-title">Duralba Techo Total</h3>
+                        <p class="product-description">
+                            Impermeabilidad reforzada
+                            <br>Mejora la aislacion termica
+                            <br>Ahorra Energia
+                        </p>
+                        <p class="product-price"></p>
+                        <button class="product-contact" onclick="window.location.href='#contacto'">Consultar</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="image-container">
+                    <img class="product-image" src="imagenes proyecto/Pinturas exterior/duralba techos.webp"
+                        alt="Pintura Antigoteo" class="product-image">
+                    </div>
+
+                    <div class="product-info">
+                        <h3 class="product-title">Duralba Techos</h3>
+                        <p class="product-description">
+                            Pelicula flexible
+                            <br>Maxima duracion
+                            <br>Proteccion por mas tiempo
+                        </p>
+                        <p class="product-price"></p>
+                        <button class="product-contact" onclick="window.location.href='#contacto'">Consultar</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="image-container">
+                    <img class="product-image" src="imagenes proyecto/Pinturas exterior/enduido alba ext.webp"
+                        alt="Pintura Antigoteo" class="product-image">
+                    </div>
+
+                    <div class="product-info">
+                        <h3 class="product-title">Enduido Alba Exterior - Alta Performance</h3>
+                        <p class="product-description">
+                            Facil aplicacion
+                            <br>Cubre imperfecciones
+                            <br>Rapido secado
+                        </p>
+                        <p class="product-price"></p>
+                        <button class="product-contact" onclick="window.location.href='#contacto'">Consultar</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="image-container">
+                    <img class="product-image" src="imagenes proyecto/Pinturas exterior/fijador aguarras.webp"
+                        alt="Pintura Antigoteo" class="product-image">
+                    </div>
+
+                    <div class="product-info">
+                        <h3 class="product-title">Fijador al Aguarras 2x1</h3>
+                        <p class="product-description">
+                            Facil aplicacion
+                            <br>Alto cubritivo
+                            <br>Refuerza la adherencia y durabilidad de la pelicula final
+                        </p>
+                        <p class="product-price"></p>
+                        <button class="product-contact" onclick="window.location.href='#contacto'">Consultar</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="image-container">
+                    <img class="product-image" src="imagenes proyecto/Pinturas exterior/fijador aguarras performance.webp"
+                        alt="Pintura Antigoteo" class="product-image">
+                    </div>
+
+                    <div class="product-info">
+                        <h3 class="product-title">Fijador al Aguarras- Alta Performance</h3>
+                        <p class="product-description">
+                            Facil aplicacion
+                            <br>Rapido secado
+                        </p>
+                        <p class="product-price"></p>
+                        <button class="product-contact" onclick="window.location.href='#contacto'">Consultar</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="image-container">
+                    <img class="product-image" src="imagenes proyecto/Pinturas exterior/fondo blanco para maderas-alta Performance.webp"
+                        alt="Pintura Antigoteo" class="product-image">
+                    </div>
+
+                    <div class="product-info">
+                        <h3 class="product-title">Fondo Blanco para Maderas-Alta Performance</h3>
+                        <p class="product-description">
+                            Facil aplicacion
+                            <br>Alto cubritivo
+                            <br>Refuerza adherencia y durabilidad de la pelicula final
+                        </p>
+                        <p class="product-price"></p>
+                        <button class="product-contact" onclick="window.location.href='#contacto'">Consultar</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="image-container">
+                    <img class="product-image" src="imagenes proyecto/Pinturas exterior/fondo blanco para maderas.jpg"
+                        alt="Pintura Antigoteo" class="product-image">
+                    </div>
+
+                    <div class="product-info">
+                        <h3 class="product-title">Fondo Blanco para Madera</h3>
+                        <p class="product-description">
+                            Refuerza adherencia y durabilidad de la pelicula final
+                            </p>
+                        <p class="product-price"></p>
+                        <button class="product-contact" onclick="window.location.href='#contacto'">Consultar</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="image-container">
+                    <img class="product-image" src="imagenes proyecto/Pinturas exterior/piletas acrilico.webp"
+                        alt="Pintura Antigoteo" class="product-image">
+                    </div>
+
+                    <div class="product-info">
+                        <h3 class="product-title">Piletas Acrilico</h3>
+                        <p class="product-description">
+                            Facil aplicacion
+                            <br>Antihongos
+                            <br>Alto cubritivo
+                        </p>
+                        <p class="product-price"></p>
+                        <button class="product-contact" onclick="window.location.href='#contacto'">Consultar</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="image-container">
+                    <img class="product-image" src="imagenes proyecto/Pinturas exterior/piletas caucho clorado.webp"
+                        alt="Pintura Antigoteo" class="product-image">
+                    </div>
+
+                    <div class="product-info">
+                        <h3 class="product-title">Piletas Caucho Clorado</h3>
+                        <p class="product-description">
+                            Antihongos
+                            <br>Alto cubritivo
+                            <br>Antialgas
+                        </p>
+                        <p class="product-price"></p>
+                        <button class="product-contact" onclick="window.location.href='#contacto'">Consultar</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="image-container">
+                    <img class="product-image" src="imagenes proyecto/Pinturas exterior/satinol 2x1.webp"
+                        alt="Pintura Antigoteo" class="product-image">
+                    </div>
+
+                    <div class="product-info">
+                        <h3 class="product-title">Satinol 2 en 1</h3>
+                        <p class="product-description">
+                            Antioxido
+                            <br>Facil aplicacion
+                            <br>Excelente Terminación
+                        </p>
+                        <p class="product-price"></p>
+                        <button class="product-contact" onclick="window.location.href='#contacto'">Consultar</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="image-container">
+                        <img class="product-image" src="imagenes proyecto/Pinturas exterior/satinol balance.webp"
+                        alt="Pintura Antigoteo" class="product-image">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Satinol Balance</h3>
+                        <p class="product-description">
+                            Facil aplicacion
+                            <br>Excelente Terminación
+                            <br>Alto cubritivo
+                            </p>
+                        <p class="product-price"></p>
+                        <button class="product-contact" onclick="window.location.href='#contacto'">Consultar</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="image-container">
+                    <img class="product-image" src="imagenes proyecto/Pinturas exterior/satinol.webp"
+                        alt="Pintura Antigoteo" class="product-image">
+                    </div>
+
+                    <div class="product-info">
+                        <h3 class="product-title">Satinol</h3>
+                        <p class="product-description">
+                            Excelente Terminación
+                            <br>Alto cubritivo
+                            <br>Maxima Duracion
+                        </p>
+                        <p class="product-price"></p>
+                        <button class="product-contact" onclick="window.location.href='#contacto'">Consultar</button>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <footer id="contacto">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Pinturería Helcias</h3>
+                    <p>Tu tienda de confianza para todos tus proyectos de pintura y renovación del hogar.</p>
+                    <p>Calidad garantizada y precios competitivos.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Contacto</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Bolivar y Chacabuco, Gualeguaychu</p>
+                    <p><i class="fas fa-phone"></i> 3446-420518</p>
+                    <p><i class="fas fa-envelope"></i> pintureriahelcias@gmail.com</p>
+                    <p><i class="fas fa-clock"></i> Lunes a Viernes: 8:00 - 12:00 y 15:00 - 19:00 Sabados: 8:00 - 12:30
+                    </p>
+                </div>
+                <div class="footer-section">
+                    <h3>Enlaces Rápidos</h3>
+                    <p><a href="index.html">Inicio</a></p>
+                    <p><a href="#hero">Productos</a></p>
+                    <p><a href="#featured-categories">Servicios</a></p>
+                </div>
+                <div class="footer-section">
+                    <h3>Síguenos</h3>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/pintureriahelcia"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Pinturería Helcias. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+<script src="script.js" defer></script>
+</body>
+</html>
