@@ -316,6 +316,9 @@
             overflow: hidden;
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
             transition: transform 0.3s;
+            display: flex;
+        flex-direction: column;
+        height: 100%;
         }
 
         .product-card:hover {
@@ -330,6 +333,9 @@
 
         .product-info {
             padding: 20px;
+            display: flex;
+    flex-direction: column;
+    flex-grow: 1;
         }
 
         .product-title {
@@ -361,6 +367,7 @@
             cursor: pointer;
             font-weight: 600;
             transition: background-color 0.3s;
+            margin-top: auto;
         }
 
         .product-contact:hover {
@@ -495,7 +502,7 @@
     
     .product-image{
         width: 80%;
-        height: 48%;
+        height: 100%;
         object-fit: cover;
     }
 
